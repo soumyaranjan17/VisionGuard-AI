@@ -1,0 +1,8 @@
+{
+  "note": "Place your custom TensorFlow.js INT8 graph model files here.",
+  "files": [
+    "model.json",
+    "group1-shard1of1.bin (or multiple shards)"
+  ],
+  "instructions": "Export your model using: tensorflowjs_converter --input_format=tf_saved_model --output_format=tfjs_graph_model --quantize_uint8 /path/to/saved_model /path/to/web_model"
+}

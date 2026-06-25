@@ -1,0 +1,28 @@
+description: Ultralytics best model trained on /content/My-First-Project-2/data.yaml
+author: Ultralytics
+date: '2026-02-27T07:06:06.133794'
+version: 8.4.18
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: Cell Phone
+  1: Earbuds
+  2: Hand
+  3: Laptop
+  4: Person
+  5: Smart Watch
+  6: Tablet
+  7: book
+args:
+  batch: 1
+  half: false
+  int8: true
+  nms: false
+channels: 3
+end2end: false

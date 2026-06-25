@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ ProctorAI
+# 🛡️ VisionGuard-AI
 
 ### Client-Side AI Proctoring Engine — Zero Server. Zero Uploads. 100% Edge.
 
